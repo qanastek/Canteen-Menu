@@ -24,3 +24,4 @@ echo do_shortcode("[CanteenMenu]");
 
 * Go to the "menu de la cantine" in the WordPress side bar
 * Fill up the fields
+* Save

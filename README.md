@@ -19,3 +19,7 @@ Use the php function :
 ```php
 echo do_shortcode("[CanteenMenu]");
 ```
+
+## Push your first canteen menu
+
+* Go to the "menu de la cantine" in the WordPress side bar

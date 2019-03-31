@@ -1,0 +1,249 @@
+.aligned_table
+{
+	text-align: center;
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+.form-control {
+    /* display: block; */
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    padding-right: 3%;
+}
+
+.form-group table
+{
+	border-collapse: collapse;
+}
+
+.form-group thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.form-group tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.form-group tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.table td,
+.table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.main_cm
+{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+}
+
+.table tbody+tbody {
+    border-top: 2px solid #dee2e6
+}
+
+.table .table {
+    background-color: #fff
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #212529;
+    border-color: #32383e
+}
+
+.table .thead-light th {
+    color: #495057;
+    background-color: #e9ecef;
+    border-color: #dee2e6
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, .05)
+}
+
+@media print
+{
+	.table {
+	    border-collapse: collapse!important
+	}
+	.table td,
+	.table th {
+	    background-color: #fff!important
+	}
+	.table-bordered td,
+	.table-bordered th {
+	    border: 1px solid #dee2e6!important
+	}
+	.table-dark {
+	    color: inherit
+	}
+	.table-dark tbody+tbody,
+	.table-dark td,
+	.table-dark th,
+	.table-dark thead th {
+	    border-color: #dee2e6
+	}
+	.table .thead-dark th {
+	    color: inherit;
+	    border-color: #dee2e6
+	}
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+    .form-control {
+        transition: none
+    }
+}
+
+textarea.form-control {
+    height: auto
+}
+
+/*-----------*/
+
+/*Hauteur minimum du tableau*/
+.meal_table table
+{
+  min-height: 20em;
+}
+
+/*Padding entre les collonnes*/
+.meal_table table
+{
+  border-collapse: separate;
+  border-spacing: 10px 0;
+}
+
+/*Couleur pour la collone 1 et 5*/
+.meal_table table th:nth-child(2n+1)
+{
+  text-align: center;
+  background-color: #9ecb64 !important;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/*Couleur pour la collone 2 et 4*/
+.meal_table table th:nth-child(2n)
+{
+  text-align: center;
+  background-color: #feaf52 !important;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/*Couleur pour la collone 3*/
+.meal_table table th:nth-child(3)
+{
+  text-align: center;
+  background-color: #ee5452 !important;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/*CSS des lignes 2, 3 et 4*/
+.meal_table table td
+{
+  text-align: center;
+  background-color: snow;
+  font-size: 1em;
+  vertical-align: middle;
+}
+
+.meal_table
+{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.meal_table span
+{
+  text-transform: none;
+  font-weight: 300;
+  padding-bottom: 1%;
+}
+
+/*-----------*/
+
+.tablepress1
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 1em;
+    border: none;
+}
+
+.tablepress1 td, .tablepress1 th {
+    padding: 8px;
+    border: none;
+    background: 0 0;
+    text-align: left;
+    float: none!important;
+}
+
+.tablepress1 tbody td {
+    vertical-align: top;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1px;
+    height: 5.5em !important;
+}
+
+.tablepress1 tbody td, .tablepress1 tfoot th {
+    border-top: 1px solid #ddd;
+}
+
+.tablepress1 .row-hover tr:hover td {
+    background-color: #f3f3f3;
+}

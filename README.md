@@ -18,6 +18,6 @@ or
 
 Use the php function
 
-'''php
+```php
 echo do_shortcode("[CanteenMenu]");
-'''
+```

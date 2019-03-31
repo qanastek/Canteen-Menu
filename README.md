@@ -10,9 +10,9 @@ Git clone https://github.com/qanastek/Canteen-Menu.git
 
 Past the shortcode
 
-'''plain text
+```php
 [CanteenMenu]
-'''
+```
 
 or
 

@@ -41,11 +41,20 @@ Use the php function :
 echo do_shortcode("[CanteenMenu]");
 ```
 
-## Make your own canteen menu
+### Step 2 - Enable it
+
+1) Go to your administrator panel
+2) Enable the plugin inside the plugins section
+
+## Step 3 - Make your own canteen menu
 
 * Go to the "menu de la cantine" in the WordPress side bar
 * Fill up the fields
 * Save
+
+## Technical informations
+
+Mainlly built with **JavaScript** (For the entire plugin) and **React** (For the WordPress Block Editor side)
 
 ## Pictures
 
